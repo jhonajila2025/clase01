@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sobre el Autor</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre_autor.html">Autor</a></li>
+        <li><a href="sociedad_contemporanea.html">Sociedad Contemporánea</a></li>
+        <li><a href="sociedad_informacion.html">Sociedad de la Información</a></li>
+        <li><a href="sociedad_conocimiento.html">Sociedad del Conocimiento</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Jhon Stalin Ajila García</h2>
+    <p>
+      Soy estudiante de la Universidad Técnica de Machala (UTMACH), comprometido con la transformación educativa a través del uso de tecnologías emergentes.
+    </p>
+    <p>
+      Me apasiona la informática educativa, el diseño de recursos digitales y la implementación de herramientas que potencien el aprendizaje colaborativo en diversos contextos. A lo largo de mi formación, he participado en proyectos de innovación pedagógica, enfocados en el desarrollo de competencias digitales tanto en docentes como en estudiantes.
+    </p>
+    <p>
+      Mi objetivo es contribuir a una educación inclusiva, moderna y accesible, utilizando la inteligencia artificial, plataformas virtuales y estrategias didácticas centradas en el estudiante.
+    </p>
+  </main>
+
+  <footer>
+    <p id="datetime"></p>
+  </footer>
+
+  <script>
+    const datetime = new Date();
+    document.getElementById("datetime").innerText = `Fecha y hora actual: ${datetime.toLocaleString()}`;
+  </script>
+</body>
+</html>
