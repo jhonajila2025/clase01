@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenid@ al sitio web</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre_autor.html">Autor</a></li>
+        <li><a href="sociedad_contemporanea.html">Sociedad Contemporánea</a></li>
+        <li><a href="sociedad_informacion.html">Sociedad de la Información</a></li>
+        <li><a href="sociedad_conocimiento.html">Sociedad del Conocimiento</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Inicio</h2>
+    <p>Explora los contenidos sobre las sociedades actuales, la tecnología y el conocimiento. Usa el menú para navegar.</p>
+  </main>
+
+  <footer>
+    <p id="datetime"></p>
+  </footer>
+
+  <script>
+    const datetime = new Date();
+    document.getElementById("datetime").innerText = `Fecha y hora actual: ${datetime.toLocaleString()}`;
+  </script>
+</body>
+</html>
